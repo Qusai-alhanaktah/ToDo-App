@@ -1,0 +1,78 @@
+:host /deep/ .user{
+    display: block;
+    border: 10px solid blueviolet;
+    margin: 50px;
+    text-align: center;
+    padding: 20px;
+    background-image: url('https://wallpapertag.com/wallpaper/full/3/f/b/409826-full-screen-hd-wallpaper-1920x1280-free-download.jpg');
+}
+:host /deep/ .editUser{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 5px solid blueviolet;
+    margin: 50px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: tomato;
+    padding: 20px;
+    background-image: url('https://i.pinimg.com/originals/89/5c/cc/895cccce862751373e5b14dc11e3bbd7.jpg');
+}
+:host /deep/ .editUser h2{
+    margin: 35px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+
+}
+:host /deep/ .user button{
+    padding: 5px;
+    border-radius: 10px;
+    color: orangered;
+}
+:host{
+    text-align: center;
+    /* background: image-set('https://i.pinimg.com/originals/89/5c/cc/895cccce862751373e5b14dc11e3bbd7.jpg'); */
+    background-image: url('https://i.pinimg.com/originals/89/5c/cc/895cccce862751373e5b14dc11e3bbd7.jpg');
+}
+:host /deep/ .hobby div{
+    padding: 10px;
+}
+:host /deep/ .hobby {
+    border: blue 2px solid;
+    margin: 50px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:host /deep/ .hobby button{
+    width: 30px;
+    border-radius: 7px;
+    color: red;
+}
+:host /deep/ .data {
+    position: absolute;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: brown;
+    font-size: x-large;
+}
+:host /deep/ .apiData {
+    position: absolute;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 600px;
+    margin-top: 150px;
+   
+}
+:host /deep/ .apiData div{
+    background-image: url('https://images.all-free-download.com/images/graphiclarge/nostalgic_blue_background_06_hd_pictures_169782.jpg');
+    background-repeat: repeat-y;
+    color: #eee;
+}
+
+
+    

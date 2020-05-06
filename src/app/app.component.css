@@ -1,0 +1,10 @@
+:host {
+    text-align: center;
+}
+:host /deep/ .links div{
+    display: inline-block;
+    padding: 30px;   
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orange;
+}
